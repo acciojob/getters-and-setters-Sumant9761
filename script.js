@@ -12,6 +12,10 @@ class Person {
     return this._name;
   }
 
+  set name(newName: string) {
+    this._name = newName;
+  }
+
   get age(): number {
     return this._age;
   }
