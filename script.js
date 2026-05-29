@@ -1,27 +1,24 @@
 //complete this code
 class Person {
-  private _name: string;
-  private _age: number;
-
   constructor(name: string, age: number) {
-    this._name = name;
-    this._age = age;
+    this.name = name;
+    this.age = age;
   }
 
   get name(): string {
-    return this._name;
+    return this.name;
   }
 
   set name(newName: string) {
-    this._name = newName;
+    this.name = newName;
   }
 
   get age(): number {
-    return this._age;
+    return this.age;
   }
 
   set age(newAge: number) {
-    this._age = newAge;
+    this.age = newAge;
   }
 }
 
